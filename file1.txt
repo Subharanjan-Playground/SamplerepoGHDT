@@ -77,3 +77,6 @@ git pull
 
 To upstream the local branch to remote:
 git push -u origin master
+
+Updated will all the Git Commands in feature branch
+
