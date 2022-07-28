@@ -77,10 +77,3 @@ git pull
 
 To upstream the local branch to remote:
 git push -u origin master
-
-
-
-
-
-
-
