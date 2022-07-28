@@ -1,0 +1,28 @@
+Steps for Developers Workflow in GitHUb
+
+Suppose a Project manager or Github Organisation Admin have created and issue and assigned it to you as you a developer, as per the requirment.
+
+You as a developer will get an email regarding the same as an Assigned task with some traceable #number ID.
+
+When you will click to that #ID you will be landing to the issue page of that particlar issue in that particlar organisation/Repository.
+
+Then as a developer you will go to the code option in that Repository. Click on it and from the Green code drop down option will copy the HTTPS link of that particular Repository.
+
+Now you can clone that particular Repository on the IDE like visual studio or a Command line like Git Bash.
+
+After cloning the code to your local.
+
+"Make another branch and then only start writing the code as per the issue requirements"
+
+After writing, adding and commiting the code/changes, push it to the remote Repository.
+
+When developer will push the code/changes from local to remote Repository, Pull request will get open.
+
+Now developer will go to the Github account to that particular Repository and from there will create a pull request.
+
+One the developer will create the new pull request, developer have to Assign it to the reviewer to review and allow for the merge.
+
+Once the reviewer will check and allow the changes to get merge. Developer will be able to merge the feature branch to the main branch.
+
+Developer will now be able to merge the braches and the main branch or source code will be updated as per the latest requirements needed.
+
