@@ -1,0 +1,82 @@
+Git Operations Commands
+
+For Configurartion to Git:
+
+At user level:
+git config --global user.name "name"
+git config --global user.email "email"
+
+At Local/repository level:
+git config --local user.name "name"
+git config --local user.email "email"
+
+To make a new directory:
+mkdir <name>
+
+To initial git in a Directory or Folder:
+git init (only when creating a repo locally not required while cloning a repo)
+
+To move in or change directory:
+cd
+
+To come out a particular directory:
+cd ..
+
+To check the list of files in Directory:
+ls  and to check the hidden files : ls -a
+
+To make a file:
+touch <file name>  or vi <File name>
+
+To add to the staging area:
+git add <file name>  or git add . (for all files)
+
+To commit file into the Local repo:
+git commit -m "Message for making the commit"
+
+To check the status:
+git status
+
+To check the number of branche present in repo:
+git branch
+
+To create a new branch:
+git branch <branch name as per requirement>
+
+To move between branches:
+git checkout <branch name in which we want to switch to>
+
+To Merge branches:
+git megre <name of the branch which we want to merge in the branch we are present>
+
+To Cherry-pick a commit:
+git cherry-pick <commit ID of the particular commit we want to merge or cherry pick>
+
+To Clone a repo:
+git clone <URL of the repo want to clone locally>
+
+To add a existing remote repo to the local repo:
+git remote add origin <URL of the remote repo>
+
+To push changes from local to remote repo:
+git push origin master (origin for remote, master for local)
+
+To check commit logs:
+git log --online or git log
+
+To revert:
+git revert <commit ID>
+
+To reset:
+git reset --hard <commit ID>
+git reset --soft <commit ID>
+git reset --mixed <commit ID>
+
+To Pull the date from remote to local repo to upadate the local repo:
+git pull
+
+To upstream the local branch to remote:
+git push -u origin master
+
+Updated will all the Git Commands in feature branch
+
